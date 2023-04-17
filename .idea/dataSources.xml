@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Snowflake PE" uuid="00bcfabe-ca19-4691-9652-7093859b5347">
+      <driver-ref>snowflake</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://koa90668.snowflakecomputing.com:443?warehouse=RAPPIBANK_WAREHOUSE</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Snowflake MX" uuid="143116c1-1e91-4c35-8539-d2e0d09c191e">
+      <driver-ref>snowflake</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>Bases de datos de MX</remarks>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://https://pga07302.snowflakecomputing.com:443?warehouse=RAPPIBANK_WAREHOUSE</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - rpp-gateway-product-ms-db@ms-rappipay-gp-dev-2.rappi.com" uuid="0b485bba-c0ed-4d7f-8ae4-93ce14020270">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ms-rappipay-gp-dev-2.rappi.com:5432/rpp-gateway-product-ms-db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
